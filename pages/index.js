@@ -16,6 +16,13 @@ export default function Home() {
       </Head>
 
       <MainPage />
+      <div>
+        <p className="text-center">
+          <small>
+            100% Credit for this Codepen for the design shoutout to isadora3
+          </small>
+        </p>
+      </div>
     </div>
   );
 }
