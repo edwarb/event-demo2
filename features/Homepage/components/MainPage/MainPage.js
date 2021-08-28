@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "../../../../styles/MainPage.module.css";
 
-function MainPage(props) {
+function MainPage() {
   return (
-    <>
+    <div style={{ display: "flex", justifyContent: "center" }}>
       <table className={styles.body} data-made-with-foundation="">
         <tr>
           <td className="float-center" align="center" valign="top">
@@ -102,14 +102,14 @@ function MainPage(props) {
                                           <p>
                                             The ceremony itself will be held
                                             privately in Jakarta, and will start
-                                            in 8.30 AM GMT. With all due
+                                            at 8.30 AM GMT. With all due
                                             respect, we want you to celebrate
                                             with us in
                                             <a
                                               target="_blank"
-                                              href="https://isadoracreative.github.io/williams-colmenares-wedding/index.html"
+                                              href="https://us02web.zoom.us/j/85480130835"
                                             >
-                                              {` LIVE STREAMING `}
+                                              {` Live Streaming `}
                                             </a>
                                             that we provide
                                           </p>
@@ -118,9 +118,9 @@ function MainPage(props) {
                                             provide
                                             <a
                                               target="_blank"
-                                              href="https://isadoracreative.github.io/williams-colmenares-wedding/index.html"
+                                              href="https://us02web.zoom.us/j/85480130835"
                                             >
-                                              {` LIVE STREAMING `}
+                                              {` Live Streaming `}
                                             </a>
                                             for you guys
                                           </p>
@@ -129,9 +129,9 @@ function MainPage(props) {
                                             great time with you in our
                                             <a
                                               target="_blank"
-                                              href="https://isadoracreative.github.io/williams-colmenares-wedding/index.html"
+                                              href="https://us02web.zoom.us/j/85480130835"
                                             >
-                                              {` LIVE STREAMING `}
+                                              {` Live Streaming `}
                                             </a>
                                             because we already prepare Zoom
                                             Photo session with you guys that we
@@ -148,7 +148,7 @@ function MainPage(props) {
                                               <td>
                                                 {/* <img src="kiwi.svg" alt="Kiwi standing on oval"></img> */}
                                                 <a
-                                                  href="https://isadoracreative.github.io/williams-colmenares-wedding/html/rsvp.html"
+                                                  href="https://us02web.zoom.us/j/85480130835"
                                                   target="_blank"
                                                 >
                                                   Join Zoom
@@ -239,7 +239,7 @@ function MainPage(props) {
           </td>
         </tr>
       </table>
-    </>
+    </div>
   );
 }
 
