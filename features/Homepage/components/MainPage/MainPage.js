@@ -37,7 +37,6 @@ function MainPage() {
               style={{
                 objectFit: "contain",
                 width: "100%",
-                height: "418px",
                 borderRadius: 20,
               }}
             />
