@@ -101,7 +101,7 @@ function MainPage() {
           </p>
         </div>
         <div className="button expanded">
-          <table className="button expanded">
+          <table className="button expanded" style={{ marginBottom: 4 }}>
             <tr>
               <td>
                 <table>
@@ -120,8 +120,18 @@ function MainPage() {
               </td>
             </tr>
           </table>
+          <div
+            onClick={() => {
+              navigator.clipboard.writeText("85480130835").then(() => {
+                alert("successfully copied");
+              });
+            }}
+            style={{ textAlign: "left", cursor: "copy" }}
+          >
+            Meeting ID: <span style={{ color: "#50b4bd" }}>854 8013 0835</span>
+          </div>
         </div>
-        <div>
+        <div style={{ marginTop: 12 }}>
           If you dont have Zoom Account, we also provide you Youtube Live
           Streaming that you can access it below.
         </div>
