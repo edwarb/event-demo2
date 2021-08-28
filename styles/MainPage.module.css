@@ -1,0 +1,15 @@
+.wrapper.secondary {
+  background: #f3f3f3;
+}
+
+.dear {
+  color: #50b4bd;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.flexCenter {
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
